@@ -1,7 +1,13 @@
-
+import { NavLink } from "react-router-dom";
 
 export default function Header() {
     return (
-    <h1>Header</h1>
+        <>
+            <NavLink to='/home'>Home</NavLink>
+            <NavLink to='/about'>About</NavLink>
+            <NavLink to='/current-workout'>Create Your Workout</NavLink>
+            <NavLink to='/muscle-groups'>Muscles</NavLink>
+            <NavLink to='/learn'>Learn</NavLink>
+        </>
     );
 }
