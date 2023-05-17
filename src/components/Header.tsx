@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 
 export default function Header() {
 
+    // add breadcrumbs to make navigating easier when looking at muscle groups/exercise types
+
     const [ search, setSearch ] = React.useState('')
 
     const handleClick = (e: any) => {
@@ -22,8 +24,9 @@ export default function Header() {
             <NavLink to='/muscle-groups'>Muscles</NavLink>
             <NavLink to='/learn'>Learn</NavLink>
             <input
-            type="text"
+                type="text"
                 onChange={onChange}
+                placeholder='Search'
             >
             </input>
             <img src="src\assets\search.png" alt="" onSubmit={handleClick} />

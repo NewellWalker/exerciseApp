@@ -3,10 +3,10 @@ export default function Footer() {
         <>
             <h2>Have an exercise we are missing? Let us know!</h2>
             <label htmlFor="exerciseInput">What is it? </label>
-            <input type="text" id="exerciseInput" />
+            <input type="text" id="exerciseInput" placeholder="Exercise" />
             <br />
             <label htmlFor="email">How can we reach out make sure get it right? </label>
-            <input type="text" id="email" />
+            <input type="text" id="email" placeholder="Email address" />
         </>
     );
 }
