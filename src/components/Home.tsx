@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -9,7 +9,10 @@ export default function Home() {
             <div className="header-home">
                 <h1>Company name / generic header</h1>
                 <h2>Let us help you find the right exerises for you!</h2>
-                <img src="src\assets\AF.jfif" alt="" />
+                <figure>
+                    <img src="src\assets\AF.jfif" alt="" />
+                    <figcaption>Air Force Acadmey intercollegiate athlete weight room</figcaption>
+                </figure>
                 <p>
                     We have a comprehive catalog of exercises ranging from compund movements to steady
                     cardio and everything in between! You can search by exercise name, muscle group, or workout type (e.g. cardio, resistance training/weight lifting).
@@ -22,7 +25,10 @@ export default function Home() {
                     Head over to the "Learn" section to learn about anything related to exercising! There are blog posts from our favorite authors, exercise science papers, 
                     and anything else that will help you enjoy becoming healthier!
                 </p>
-                <img src="src\assets\turf.jfif" alt="" />
+                <figure>
+                    <img src="src\assets\turf.jfif" alt="" />
+                    <figcaption>Sorry for the USAFA picture, it's where I graduated from and think it's beautiful!</figcaption>
+                </figure>
                 <h2>Still a little unsure?</h2>
                 <p>
                     We offer full coaching from our staff of certified coaches with experience coaching everyone from Olympic athletes to grandparents!
