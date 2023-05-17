@@ -30,6 +30,7 @@ export default function Header() {
             >
             </input>
             <img src="src\assets\search.png" alt="" onSubmit={handleClick} />
+            <h3>header break</h3>
         </>
     );
 }
