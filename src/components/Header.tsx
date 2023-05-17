@@ -5,12 +5,13 @@ export default function Header() {
 
     const [ search, setSearch ] = React.useState('')
 
-    const handleClick = (e) => {
-
+    const handleClick = (e: any) => {
+        e.target.value;
     }
 
-    const onChange = (e) => {
+    const onChange = (e: any) => {
         setSearch(e.target.value);
+        search;
     }
 
     return (
@@ -25,7 +26,7 @@ export default function Header() {
                 onChange={onChange}
             >
             </input>
-            <img src="src\assets\search.png" alt="" onClick={handleClick} />
+            <img src="src\assets\search.png" alt="" onSubmit={handleClick} />
         </>
     );
 }
