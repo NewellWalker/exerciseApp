@@ -23,12 +23,11 @@ export default function Header() {
             <NavLink to='/current-workout'>Create Your Workout</NavLink>
             <NavLink to='/muscle-groups'>Muscles</NavLink>
             <NavLink to='/learn'>Learn</NavLink>
-            <input
+            < input
                 type="text"
                 onChange={onChange}
                 placeholder='Search'
-            >
-            </input>
+            />
             <img src="src\assets\search.png" alt="" onSubmit={handleClick} />
             <h3>header break</h3>
         </>
