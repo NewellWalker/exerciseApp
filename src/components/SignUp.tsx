@@ -1,4 +1,4 @@
-
+// need to add form validation and working submit button
 
 export default function SignUp() {
 
@@ -47,7 +47,6 @@ export default function SignUp() {
                 name="lastName"
                 id="lastName"
                 placeholder="What's your last name?"
-                required
             />
             <br />
             <label htmlFor="email">Email: </label>
@@ -67,6 +66,7 @@ export default function SignUp() {
                 size={29}
             />
             <br />
+            <input type="button" value="Submit" onSubmit={onSubmit} />
         </form>
     );
 }
