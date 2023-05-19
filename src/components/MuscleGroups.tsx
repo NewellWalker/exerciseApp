@@ -9,6 +9,7 @@ export default function MuscleGroups() {
         // primary movers
         // secondary movers
         // any others that I consider with exercise selection?
+    // how do i make the "tags" at the bottom visible and clickable
     
     return (
         <div>
@@ -22,6 +23,9 @@ export default function MuscleGroups() {
                 <h2>Chest</h2>
                 {/* do I need to list "chest for each?" */}
                     <h3>Upper chest</h3>
+                        <h3>Incline fly</h3>
+                        <h3>Incline barbell bench press</h3>
+                        <h3>Incline dumbell bench press</h3>
                     <h3>Lower chest</h3>
                     <h3>Inner chest</h3>
                 <h2>Shoulders</h2>
@@ -33,7 +37,7 @@ export default function MuscleGroups() {
                     <h3>meaty part on back of arm</h3>
                     <h3>part on inner arm?</h3>
                 <h2>Biceps</h2>
-                    <h3>long head (what is it?)</h3>
+                    <h3>Long head (what is it?)</h3>
                     <h3>Short head (what is it?)</h3>
                     <h3>Biceps brachia (spelled right?) (helps make your arm look thicker)</h3>
                 <h2>Forearms</h2>
@@ -43,7 +47,7 @@ export default function MuscleGroups() {
                 <h2>Lower back</h2>
                 <h2>Abs</h2>
                     <h3>"six pack abs" (what are they?)</h3>
-                    <h3>lower abs (Adonis muscles)</h3>
+                    <h3>Lower abs (Adonis muscles)</h3>
                     <h3>Obliques (side abs)</h3>
                  {/* there is a better way to say that */}
                 <h2>Psoas (connects upper body to lower)</h2> 
