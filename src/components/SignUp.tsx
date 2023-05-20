@@ -1,4 +1,9 @@
 // need to add form validation and working submit button
+// https://www.bezkoder.com/react-hook-form-typescript/
+
+// import { useForm } from "react-hook-form";
+// import { yupResolver } from "@hookform/resolvers/yup";
+// import * as Yup from 'yup';
 
 export default function SignUp() {
 
