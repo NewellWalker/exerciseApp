@@ -1,3 +1,5 @@
+import MuscleGroupCard from './MuscleGroupCard'
+
 export default function MuscleGroups() {
     // seachbar with integrated drop down menu 
     // landing page lists all things broken up into muscle groups
@@ -10,9 +12,11 @@ export default function MuscleGroups() {
         // secondary movers
         // any others that I consider with exercise selection?
     // how do i make the "tags" at the bottom visible and clickable
+    // make similar tags the same color in CSS
     
     return (
         <div>
+            <MuscleGroupCard />
             <h1>Resistance Movements</h1>
             <p>seconday movers but not that term unless it's intuitive?</p>
             <div
