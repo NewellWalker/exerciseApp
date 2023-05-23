@@ -1,4 +1,4 @@
-// import MuscleGroupCard from './MuscleGroupCards/MuscleGroupCard'
+import MuscleGroupCard from './MuscleGroupCards/MuscleGroupCard'
 
 export default function MuscleGroups() {
     // seachbar with integrated drop down menu 
@@ -16,11 +16,9 @@ export default function MuscleGroups() {
     
     return (
         <div>
-            {/* <MuscleGroupCard /> */}
-            <h1>Resistance Movements 
-                <br />
-                Make these in nested lists
-            </h1>
+            <MuscleGroupCard />
+            <h1>Resistance Movements</h1>
+            <p>seconday movers but not that term unless it's intuitive?</p>
             <div
                 className="resistanceMovement"
             >
