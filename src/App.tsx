@@ -1,10 +1,12 @@
+// Make the app what you are looking for right now
+
 import Root from './components/Root';
-import Home from './components/Home/Home';
-import About from './components/About/About';
-import CurrentWorkout from './components/CurrentWorkout/CurrentWorkout';
-import MuscleGroups from './components/MuscleGroups/MuscleGroups';
-import Learn from './components/Learn/Learn';
-import SignUp from './components/signup/SignUp';
+import Home from './components/Home';
+import About from './components/About';
+import CurrentWorkout from './components/CurrentWorkout';
+import MuscleGroups from './components/MuscleGroups';
+import Learn from './components/Learn';
+import SignUp from './components/SignUp';
 import './App.css';
 
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';

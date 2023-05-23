@@ -1,4 +1,4 @@
-import MuscleGroupCard from './MuscleGroupCards/MuscleGroupCard'
+// import MuscleGroupCard from './MuscleGroupCards/MuscleGroupCard'
 
 export default function MuscleGroups() {
     // seachbar with integrated drop down menu 
