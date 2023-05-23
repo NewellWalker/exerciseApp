@@ -7,6 +7,8 @@ export default function CurrentWorkout() {
 
 
     return (
-        <h1>workout</h1>
+        <div>
+            <h2>do I even need this anymore? I dont think so for right now</h2>
+        </div>
     );
 }
