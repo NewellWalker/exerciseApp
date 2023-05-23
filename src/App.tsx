@@ -4,7 +4,7 @@ import Root from './components/Root';
 import Home from './components/Home';
 import About from './components/About';
 import CurrentWorkout from './components/CurrentWorkout';
-import MuscleGroups from './components/MuscleGroupCards/MuscleGroups';
+import MuscleGroups from './components/MuscleGroups';
 import Learn from './components/Learn';
 import SignUp from './components/SignUp';
 import './App.css';
