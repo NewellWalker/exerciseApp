@@ -1,5 +1,5 @@
 export default function Learn() {
     return(
-        <h1>Learn</h1>
+        <h1>Add articles that I want to read/re-read</h1>
     );
 }
