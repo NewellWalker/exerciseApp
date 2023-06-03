@@ -1,4 +1,5 @@
 // import { Link } from "react-router-dom";
+import MuscleGroups from '../MuscleGroups';
 import './Home.module.css';
 
 export default function Home() {
@@ -10,7 +11,7 @@ export default function Home() {
             <ul>
                 <li>Muscle group(s)</li>
                 <br />
-                <li>Number of large compunds</li>
+                <li>Number of large compounds</li>
                 <br />
                 <li>Which accessories and seconday muscle groups</li>
                 <br />
