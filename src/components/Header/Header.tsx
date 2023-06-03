@@ -7,6 +7,7 @@ export default function Header() {
         <>
             <NavLink to='/home'>Home</NavLink>
             <NavLink to='/about'>About</NavLink>
+            <NavLink to='/exercises'>List of Exercises</NavLink>
             <NavLink to='/current-workout'>Create Your Workout</NavLink>
             <NavLink to='/muscle-groups'>Muscles</NavLink>
             <NavLink to='/learn'>Learn</NavLink>
