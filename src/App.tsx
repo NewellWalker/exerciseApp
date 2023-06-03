@@ -1,7 +1,7 @@
 // Make the app what you are looking for right now
 
 import Root from './components/Root';
-import Home from './components/Home';
+import Home from './components/Home/Home';
 import About from './components/About';
 import CurrentWorkout from './components/CurrentWorkout';
 import MuscleGroups from './components/MuscleGroups';
