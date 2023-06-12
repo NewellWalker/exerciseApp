@@ -7,6 +7,9 @@ export default function CurrentWorkout() {
 
 
     return (
-        <h1>Do I still need this? I don't think so for right now</h1>
+        <>
+            <h1>Do I still need this? I don't think so for right now</h1>
+            <h2>PDF, excel export or sheets API</h2>
+        </>
     );
 }

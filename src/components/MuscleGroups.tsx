@@ -48,7 +48,7 @@ export default function MuscleGroups() {
                 <h2>Lats</h2>
                     <h3>Width</h3>
                     <h3>Thickness</h3>
-                <h2>Lower back</h2>
+                <h2>Lower Back</h2>
                 <h2>Abs</h2>
                     <h3>"six pack abs" (what are they?)</h3>
                     <h3>Lower abs (Adonis muscles)</h3>
