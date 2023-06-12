@@ -1,5 +1,5 @@
 // import { Link } from "react-router-dom";
-import MuscleGroups from '../MuscleGroups';
+// import MuscleGroups from '../MuscleGroups';
 import './Home.module.css';
 import Select from 'react-select';
 
@@ -22,7 +22,7 @@ export default function Home() {
         {value: 'upper', label: 'Lats'},
         {value: 'upper', label: 'Lower Back'},
         {value: 'upper', label: 'Abs'},
-        {value: 'upper', label: 'Pelvis'}
+        {value: 'upper', label: 'Pelvis'},
         {value: 'lower', label: 'Glutes'},
         {value: 'lower', label: 'Adductors'},
         {value: 'lower', label: 'Abductors'},
