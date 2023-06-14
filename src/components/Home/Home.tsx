@@ -7,8 +7,9 @@ import Select from 'react-select';
 export default function Home() {
 
     let upperLower = [
-        {value: 'upperTop', label: 'Upper Body'},
-        {value: 'lowerTop', label: 'Lower Body'}
+        {value: 'upper', label: 'Upper Body'},
+        {value: 'lower', label: 'Lower Body'},
+        {value: 'full', label: 'Full Body'}
     ]
 
     let muscleGroupList = [
@@ -32,12 +33,31 @@ export default function Home() {
         {value:'lower', label: 'Tibualous'}
     ];
 
-    // const filterOptions = (
-    //     if ()
-    // )
+    let upperList = [
+        {value: 'upper', label: 'Neck'},
+        {value: 'upper', label: 'Traps'},
+        {value: 'upper', label: 'Chest'},
+        {value: 'upper', label: 'Shoulders'},
+        {value: 'upper', label: 'Ticeps'},
+        {value: 'upper', label: 'Biceps'},
+        {value: 'upper', label: 'Forearms'},
+        {value: 'upper', label: 'Lats'},
+        {value: 'upper', label: 'Lower Back'},
+        {value: 'upper', label: 'Abs'},
+        {value: 'upper', label: 'Pelvis'}
+    ];
 
-    // ACTION META :: onSelectResetsInput = false
-    
+    let lowerList = [
+        {value: 'lower', label: 'Glutes'},
+        {value: 'lower', label: 'Adductors'},
+        {value: 'lower', label: 'Abductors'},
+        {value: 'lower', label: 'Quads'},
+        {value: 'lower', label: 'Hamstrings'},
+        {value: 'lower', label: 'Calves'},
+        {value:'lower', label: 'Tibualous'}
+    ];
+
+    // let bodySection = props.selectProps
 
     return (
         <> 
@@ -52,10 +72,15 @@ export default function Home() {
                 <li>Abs / cardio and what for each if yes</li>
             </ul>
             <div className='muscleSelection'>
-                <Select 
+                <Select
+                    className='bodySectionSelector'
                     options={upperLower}
+                    // onChange={bodySection = value}
                 />
-                <Select options={muscleGroupList} />
+                <Select 
+                    options={muscleGroupList} 
+                    isMulti
+                />
             </div>
         </>
     );
